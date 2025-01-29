@@ -6,7 +6,7 @@
 ### Exception Handling 
 - [Exception Handling in Spring Boot REST API Explained With Demonstration](https://youtu.be/L2o485T70Do?si=UYyw2zP38lbfbuau)
   
-Q. if we want to home/AllRestaurant and home/AllRestaurant/{variable} we have to create 2 diffrent get method  ? or we can do it in same path
+Q. if we want to home/AllRestaurant and home/AllRestaurant/{variable} we have to create 2 diffrent get method  ? or we can do it in same path    
 ChatGPT said:
 You don't need to create two separate methods. You can handle both /home/AllRestaurant and /home/AllRestaurant/{restaurantName} in the same method by making the @PathVariable optional.
 
